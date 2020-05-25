@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e5a9ec7-dd4f-41be-86d6-530b516db9d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RNN/download_dataset" beforeDir="false" afterPath="$PROJECT_DIR$/RNN/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RNN/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/RNN/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/RNN/model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RNN/ReadMe.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -59,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RNN/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+            <state relative-caret-position="181">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding>
                 <element signature="e#57#69#0" expanded="true" />
               </folding>
@@ -120,7 +118,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/RNN/download_dataset" />
-        <option value="$PROJECT_DIR$/RNN/model.py" />
         <option value="$PROJECT_DIR$/RNN/train.py" />
         <option value="$PROJECT_DIR$/RNN/w2v.py" />
         <option value="$PROJECT_DIR$/RNN/utils.py" />
@@ -129,6 +126,7 @@
         <option value="$PROJECT_DIR$/RNN/main.py" />
         <option value="$PROJECT_DIR$/RNN/ReadMe.txt" />
         <option value="$PROJECT_DIR$/RNN/ReadMe.md" />
+        <option value="$PROJECT_DIR$/RNN/model.py" />
       </list>
     </option>
   </component>
@@ -301,12 +299,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590395635090</updated>
-      <workItem from="1590395636423" duration="5368000" />
+      <workItem from="1590395636423" duration="5509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5368000" />
+    <option name="totallyTimeSpent" value="5509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1236" height="777" extended-state="0" />
@@ -375,16 +373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RNN/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-          <folding>
-            <element signature="e#57#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RNN/train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
@@ -414,8 +402,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RNN/ReadMe.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RNN/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="e#57#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
