@@ -63,4 +63,21 @@ val_loader = torch.utils.data.DataLoader(dataset = val_dataset,
                                             num_workers = 8)
 
 # 開始訓練
+print("training")
 training(batch_size, epoch, lr, model_dir, train_loader, val_loader, model, device)
+
+
+# 開始測試模型並做預測
+print("loading testing data ...")
+test_x = load_testing_data(testing_data)
+preprocess = Preprocess(test_x, sen_len, w2v_path=w2v_path)
+embedding = preprocess.make_embedding(load=True)
+test_x = preprocess.sentence_word2idx()
+test_dataset = TwitterDataset(X=test_x, y=None)
+test_loader = torch.utils.data.DataLoader(dataset = test_dataset,
+                                            batch_size = batch_size,
+                                            shuffle = False,
+                                            num_workers = 8)
+print('\nload model ...')
+model = torch.load(os.path.join(model_dir, 'ckpt.model'))
+outputs = testing(batch_size, test_loader, model, device)
